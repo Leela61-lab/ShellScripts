@@ -41,3 +41,12 @@ wait $!
 
 echo "exit status of the last command :: $?"
 # $? prints the exit status of the last command executed.
+
+echo "shell name :: $SHELL"
+# $SHELL prints the shell name which is used to run the script.
+
+echo "Line number of the script :: $LINENO"
+# $LINENO prints the line number of the script which is currently being executed.
+
+ echo "login name of the user :: $LOGNAME"
+# $LOGNAME prints the login name of the user who is running the script.
