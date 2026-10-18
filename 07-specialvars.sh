@@ -31,3 +31,13 @@ echo "home direstotyu of the current user :: $HOME"
 
 echo "current process id of the script :: $$"
 # $$ prints the process id of the current script.
+
+sleep 10
+echo "PID of the commadn running in the background now :: $!"
+# $! prints the process id of the last command running in the background.
+
+wait $!
+# $! is used to wait for the last command running in the background to complete.
+
+echo "exit status of the last command :: $?"
+# $? prints the exit status of the last command executed.
