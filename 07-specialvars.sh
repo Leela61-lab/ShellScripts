@@ -24,16 +24,16 @@ echo "Who is running the current script :: $USER"
 # $USER is used to print the user who is running the script.
 
 echo "current directory of the script :: $PWD"
-# $PWD prints the present workign directory of the script
+# $PWD prints the present working directory of the script
 
-echo "home direstotyu of the current user :: $HOME"
-# $HOME prints he home directory of the current user who is running the script.
+echo "home directory of the current user :: $HOME"
+# $HOME prints the home directory of the current user who is running the script.
 
 echo "current process id of the script :: $$"
 # $$ prints the process id of the current script.
 
 sleep 10
-echo "PID of the commadn running in the background now :: $!"
+echo "PID of the command running in the background now :: $!"
 # $! prints the process id of the last command running in the background.
 
 wait $!
