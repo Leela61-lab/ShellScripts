@@ -35,7 +35,7 @@ END_TIME=$(date +%s)
 
 echo "Execution time ended at : $END_TIME seconds"
 
-TOTAL_TIME=$(($END_TIME) - ($START_TIME))
+TOTAL_TIME=$(($END_TIME-$START_TIME))
 
 
 echo "Total execution time of the script : $TOTAL_TIME seconds
