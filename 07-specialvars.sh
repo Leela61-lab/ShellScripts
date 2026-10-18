@@ -5,3 +5,6 @@
 # These variables are also known as environment variables. #
 
 echo "All arguments passsed to the script are :: $@"
+# $@ is used to print all the parqameters passed to this script.
+
+echo "Number of arguments passed to the script are :: $#"
