@@ -20,5 +20,5 @@ echo "Real path :: $(realpath $0)"
 # realpath command is used to get the absolute path of the script
 # It will return the full path of the script.
 
-echo "Who is runnign the current script:: $user"
+echo "Who is running the current script :: $user"
 # $user is used to print the user who is running the script.
