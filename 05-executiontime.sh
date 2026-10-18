@@ -31,7 +31,11 @@ echo "$PERSON2:: It was nice talking to you too, $PERSON1. Good luck with your p
 
 END_TIME=$(date +%s)
 
-TOTAL_TIME=$(($END_TIME - $START_TIME))
+# TOTAL_TIME=$(($END_TIME - $START_TIME))
 
 echo "Execution time ended at : $END_TIME seconds"
+
+TOTAL_TIME=$(($END_TIME) - ($START_TIME))
+
+
 echo "Total execution time of the script : $TOTAL_TIME seconds
