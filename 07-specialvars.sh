@@ -50,3 +50,6 @@ echo "Line number of the script :: $LINENO"
 
  echo "login name of the user :: $LOGNAME"
 # $LOGNAME prints the login name of the user who is running the script.
+
+echo "All the arguments [pass o the sripts as words :: $*"
+# $* prints all the arguments passed to the script as a single word.]
