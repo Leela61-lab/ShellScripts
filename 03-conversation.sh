@@ -1,0 +1,28 @@
+#!/bin/bash
+
+PERSON1=$1
+PERSON2=$2
+
+
+echo "$PERSON1:: Hi $PERSON2, How are you?"
+echo "$PERSON2:: I am fine, How are you?"
+echo "$PERSON1:: I am fine too, What are you doing?"
+echo "$PERSON2:: I am working on a project, What about you?"
+echo "$PERSON1:: I am also working on a project, What is your project about?"
+echo "$PERSON2:: My project is about developing a web application, What about your project?"
+echo "$PERSON1:: My project is about developing a mobile application, What technologies are you using for your project?"
+echo "$PERSON2:: I am using ReactJS and NodeJS for my project, What about you?"
+echo "$PERSON1:: I am using Flutter and Firebase for my project, How is your project going?"
+echo "$PERSON2:: My project is going well, I have completed the frontend part and now I am working on the backend part, How is your project going?"
+echo "$PERSON1:: My project is also going well, I have completed the frontend part and now I am working on the backend part, What challenges are you facing in your project?"
+echo "$PERSON2:: I am facing some challenges in integrating the frontend and backend parts of my project, How about you?"
+echo "$PERSON1:: I am facing some challenges in implementing the authentication and authorization features in my project, How are you planning to overcome the challenges in your project?"
+echo "$PERSON2:: I am planning to overcome the challenges in my project by referring to some online resources and seeking help from my colleagues, How about you?"
+echo "$PERSON1:: I am planning to overcome the            challenges in my project by referring to some online resources and seeking help from my colleagues, What is the deadline for your project?"
+echo "$PERSON2:: The deadline for my project is next month, How about your project?"
+echo "$PERSON1:: The deadline for my project is also next month, How are you planning to complete your project on time?"
+echo "$PERSON2:: I am planning to complete my project on time by working extra hours and prioritizing the tasks, How about you?"
+echo "$PERSON1:: I am planning to complete my project on time by working extra hours and prioritizing the tasks, What are your future plans after completing your project?"
+echo "$PERSON2:: My future plans after completing my project are to learn new technologies and work on more challenging projects, How about you?"
+echo "$PERSON1:: My future plans after completing my project are to learn new technologies and work on more challenging projects, It was nice talking to you, $PERSON2."
+echo "$PERSON2:: It was nice talking to you too, $PERSON1. Good luck with your project!"
