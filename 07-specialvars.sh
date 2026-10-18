@@ -32,7 +32,7 @@ echo "home directory of the current user :: $HOME"
 echo "current process id of the script :: $$"
 # $$ prints the process id of the current script.
 
-sleep 10
+sleep 10 &
 echo "PID of the command running in the background now :: $!"
 # $! prints the process id of the last command running in the background.
 
