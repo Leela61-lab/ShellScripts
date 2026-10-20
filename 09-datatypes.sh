@@ -7,10 +7,13 @@ var3="Leela"
 echo "$((var1+var2+var3))"
 
 FRUITS=("APPLE" "MANGO" "STRAWBERRY")
-echo "ALL FRUITS AVAILABLE AREA : ${FRUITS[@]}"
+echo "ALL FRUITS AVAILABLE ARE : ${FRUITS[@]}"
+echo "Second FRUIT AVAILABLE IS : ${FRUITS[1]}"
+
+NAME="Leela Sahasra P"
+echo "${NAME}athipati"
 
 # to tell the script that variable is an integer we can use declare command
-
 declare -i COUNT=5
 COUNT=COUNT+1
 echo "COUNT is : $COUNT"
