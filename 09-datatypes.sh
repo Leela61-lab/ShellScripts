@@ -10,8 +10,8 @@ FRUITS=("APPLE" "MANGO" "STRAWBERRY")
 echo "ALL FRUITS AVAILABLE ARE : ${FRUITS[@]}"
 echo "Second FRUIT AVAILABLE IS : ${FRUITS[1]}"
 
-NAME="Leela Sahasra P"
-echo "${NAME}athipati"
+FULLNAME="Leela Sahasra P"
+echo "Your full name is : ${FULLNAME}athipati"
 
 # to tell the script that variable is an integer we can use declare command
 declare -i COUNT=5
