@@ -7,7 +7,7 @@ var3="Leela"
 echo "$((var1+var2+var3))"
 
 FRUITS=("APPLE" "MANGO" "STRAWBERRY")
-echo "ALL FRUITS AVAILABLE AREA : $FRUITS[@]"
+echo "ALL FRUITS AVAILABLE AREA : ${FRUITS[@]}"
 
 # to tell the script that variable is an integer we can use declare command
 
