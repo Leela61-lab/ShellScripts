@@ -1,25 +1,20 @@
 #!/bin/bash
 
-user_id=$(id -u)
+user_id-$(id -u)
 
 if [ $user_id -ne 0 ] ; then
-    echo "please provide the sudo access to run this script"
-    exit 1
+    echo "please proceed with the sudo access"
+    exit 2
 fi
 
 validate() {
-    if [ $1 -ne 0 ] ; then
-        echo "${2} failed"
+    if [ $1 -eq 0 ] ; then 
+        echo "${2}.... success"
+    else 
+        echo "${2}.... failed"
         exit 1
-    else
-        echo "${2} SUCCESS"
     fi
 }
 
-echo "proceeding......."
-
 dnf install nginx -y
 validate $? "nginx installation"
-
-dnf install httpd -y
-validate $? "httpd installation"
