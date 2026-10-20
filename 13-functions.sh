@@ -2,7 +2,7 @@
 
 user_id=$(id -u)
 
-if [ $userid -ne 0 ] ; then
+if [ $user_id -ne 0 ] ; then
     echo "please provide the sudo access to run this script"
     exit 1
 fi
