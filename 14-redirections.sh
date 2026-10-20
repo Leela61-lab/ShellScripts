@@ -11,7 +11,7 @@ fi
 
 mkdir -p $logs_folder
 
-echo "Script execution started at $(date + "%F %T")"
+echo "Script execution started at $(date +"%F %T")"
 
 validate() {
     if [ $1 -ne 0 ]; then
@@ -28,9 +28,9 @@ dnf install nginx -y &>> $logs_file
 validate $? "nginx installation"
 
 dnf install httpd -y &>> $logs_file
-validate $? "hhtpd installation"
+validate $? "httpd installation"
 
-echo "Script execution completed at $(date + "%F %T")"
+echo "Script execution completed at $(date +"%F %T")"
 
 TOTAL_TIME=$(date +%S)
 
