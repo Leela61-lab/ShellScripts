@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# given number is odd or even
+
 echo "Enter any number : "
 read num
 if [[ $((num%2)) -ne 0 ]]; then
@@ -7,3 +9,4 @@ if [[ $((num%2)) -ne 0 ]]; then
 else 
     echo "The given number is even"
 fi
+
