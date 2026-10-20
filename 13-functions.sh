@@ -7,9 +7,12 @@ if [ $user_id -ne 0 ] ; then
     exit 2
 fi
 
-echo "proceeding ..... to install ${2}"
+
 
 validate() {
+    
+    echo "proceeding ..... to install ${2}"
+
     if [ $1 -eq 0 ] ; then 
         echo "${2}.... success"
     else 
