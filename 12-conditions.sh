@@ -3,10 +3,15 @@
 user_id=$(id -u)
 if [ $user_id -ne 0 ] ; then
     echo "please run this with the sudo access"
+    echo "sudo su -"
     exit 1
 fi
 
+
+
 echo "proceeding...."
+
+
 
 dnf install nginx -y
 
