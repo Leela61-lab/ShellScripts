@@ -9,7 +9,7 @@ read marks
 
 if [[ $marks -lt 35 ]] ; then
     echo "The Student ${name} is failed"
-elif [[ $marks -ge 35 && $marks -lt 50]] ; then
+elif [[ $marks -ge 35 && $marks -lt 50 ]] ; then
     echo "The student ${name} is passed in third class"
 elif [[ $marks -ge 50 && $marks -lt 60 ]] ; then
     echo "The student ${name} is passes in second class"
